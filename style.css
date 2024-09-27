@@ -1,11 +1,13 @@
-
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: blueviolet;
-    overflow: hidden;
-    position: relative;
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-image: url();
+background-color: blueviolet;
+overflow: hidden;
+position: relative;
 }
-.header
+.banner
+   text-align: center;
+   color 
