@@ -3,11 +3,69 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-image: url();
-background-color: blueviolet;
+background-color: beige;
+width: 100px;
+background-repeat: no-repeat;
 overflow: hidden;
 position: relative;
 }
-.banner
+.banner{
    text-align: center;
-   color 
+   color: aqua;
+   animation: shine 4s infinite alternate;
+   position: relative;
+   padding: 50px;
+   border-radius: 10px;
+   box-shadow: 0 10px 20px rgba(rgb(91, 122, 96), green, rgb(3, 112, 58), alpha);
+}
+.banner h1{
+   font-size: 3em;
+   margin-bottom: 10px;
+}
+.banner p {
+font-size: 1.5em;
+}
+.dropdown {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+}
+.menu-btn {
+   padding: 10px 20px;
+   background-color: aquamarine;
+   border: none;
+   border-radius: 5px;
+   color: aliceblue;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3 ease;
+}
+.menu-btn:hover {
+   background-color: aquamarine;
+}
+.menu-list {
+   display: none;
+   list-style: none;
+   padding: 10px;
+   background-color: aliceblue;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   position: absolute;
+   top: 100%;
+   left: 0;
+   z-index: 10;
+}
+.menu-list.show {
+   display: block;
+}
+.menu-list li {
+   margin-bottom: 10px;
+}
+.menu-list li a {
+   text-decoration: none;
+   color: azure;
+   font-size: 16px;
+}
+.menu-list li a:hover {
+   color: rgb(255, 0, 0);
+}
